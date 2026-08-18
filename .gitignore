@@ -1,1 +1,28 @@
+# File konfigurasi (mengandung data pribadi)
+twilio_config.json
+video_downloader_config.json
 
+# File log
+*.log
+*.txt
+!requirements.txt
+
+# File Python cache
+*.pyc
+__pycache__/
+*.pyo
+
+# File sistem
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# File lokal
+hack_camera.sh
+*.zip
+*.tgz
+ngrok
+cloudflared
+.ngrokfolder/
+.cffolder/
